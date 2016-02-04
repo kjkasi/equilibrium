@@ -1,2 +1,1 @@
-set DEBUG=myapp:* & npm start
-pause
+set DEBUG=myapp:* & npm start & pause
