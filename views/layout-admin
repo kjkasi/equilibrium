@@ -7,11 +7,8 @@ html
     .nav
       ul(class='hr')
        li
-        a(href='/') Home
-       if (user) 
-         li
-          a(href='#') logout
-       else
-         li
-          a(href='/admin') admin
+        a(href='/') Equilibrium 
+       li
+        a(href='google.com') Google
+       li Item C
     block content
