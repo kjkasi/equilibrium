@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var admins = require('./routes/admin');
+var test = require('./routes/test');
 
 var mongoose = require('mongoose');
 var passport = require('passport');
@@ -43,6 +44,7 @@ passport.deserializeUser(Account.deserializeUser());
 app.use('/', routes);
 app.use('/users', users);
 app.use("/admin", admins);
+app.use("/test", test);
 
 // mongoose
 mongoose.connect('mongodb://localhost/equilibrium');

@@ -1,0 +1,497 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"admin",
+				"admin-index"
+			],
+			[
+				"pa",
+				"path"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"nt",
+				"nth-last-child"
+			],
+			[
+				"borde",
+				"border-collapse"
+			],
+			[
+				"h",
+				"hide"
+			],
+			[
+				"e",
+				"empty-cells"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"lo",
+				"LocalStrategy"
+			],
+			[
+				"local",
+				"LocalStrategy"
+			],
+			[
+				"pass",
+				"passport"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"req",
+				"require"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "views/layout.jade",
+			"settings":
+			{
+				"buffer_size": 1297,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/admin.jade",
+			"settings":
+			{
+				"buffer_size": 822,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/index.jade",
+			"settings":
+			{
+				"buffer_size": 320,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 174.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Anton/Work/equilibrium/views/index.jade",
+		"/C/Users/Anton/Work/equilibrium/app.js",
+		"/C/Users/Anton/Work/equilibrium/routes/admin.js",
+		"/C/Users/Anton/Work/equilibrium/views/admin.jade",
+		"/C/Users/Anton/Work/passport-local/views/login.jade",
+		"/C/Users/Anton/Work/equilibrium/package.json",
+		"/C/Users/Anton/Work/equilibrium/public/stylesheets/style.css",
+		"/C/Users/Anton/Work/equilibrium/views/test.jade",
+		"/C/Users/Anton/Work/equilibrium/views/admin-index.jade",
+		"/C/Users/Anton/Work/passport-local/views/index.jade",
+		"/C/Users/Anton/Work/equilibrium/public/stylesheets/bootstrap-theme.css",
+		"/C/Users/Anton/Work/equilibrium/routes/test.js",
+		"/C/Users/Anton/Work/equilibrium/routes/index.js",
+		"/C/Users/Anton/Work/equilibrium/start.bat",
+		"/C/Users/Anton/Work/photo-stock/views/index.jade",
+		"/C/Users/Anton/Work/photo-stock/views/layout.jade",
+		"/C/Users/Anton/Desktop/123.bat",
+		"/C/Users/Anton/AppData/Roaming/npm/express.cmd",
+		"/C/Users/Anton/AppData/Local/Temp/01F6575E-5D64-4EB2-846E-F7075140BB63/Lang/EN/Custom/js/Progress.js",
+		"/C/Users/Anton/Work/equilibrium/views/layout.jade",
+		"/C/Users/Anton/Work/photo-stock/routes/index.js",
+		"/C/Users/Anton/Work/photo-stock/app.js",
+		"/C/Users/Anton/Work/photo-stock/package.json",
+		"/C/Users/Anton/Work/equilibrium/views/layout-admin",
+		"/C/Users/Anton/Work/jade/public/maket.html",
+		"/C/Users/Anton/Work/jade/public/les-css.html",
+		"/C/Users/Anton/Work/jade/public/lab-maket.html",
+		"/C/Users/Anton/Work/photo-stock/views/login.jade",
+		"/C/Users/Anton/Work/photo-stock/routes/login.js",
+		"/C/Users/Anton/Work/photo-stock/routes/register.js",
+		"/C/Users/Anton/Work/equilibrium/routes/users.js",
+		"/C/Users/Anton/Work/photo-stock/routes/users.js",
+		"/C/Users/Anton/Work/equilibrium/statr.bat",
+		"/C/Users/Anton/Work/equilibrium/models/account.js",
+		"/C/Users/Anton/Work/jade/public/stylesheets/lab-css.css",
+		"/C/Users/Anton/Work/jade/public/lab-css.html",
+		"/C/Users/Anton/Work/jade/views/index.jade",
+		"/C/Users/Anton/Work/jade/views/layout.jade",
+		"/C/Users/Anton/Work/jade/public/form.html",
+		"/E/zona/MathCad15/crack/mathcad_v15_f000_crk/license.dat",
+		"/C/Users/Anton/Downloads/processexplorer.zip",
+		"/E/zona/MathCad15/russian/crack/license.dat",
+		"/E/backup/distr/MathCad15/russian/crack/license.dat",
+		"/C/Users/Anton/Downloads/g2mGUI.hta",
+		"/C/Users/Anton/Downloads/bibliofond_445545.zip",
+		"/C/Users/Anton/Downloads/232.vtt",
+		"/C/Users/Anton/Downloads/bootstrap-3.3.6-dist/bootstrap-3.3.6-dist/js/npm.js",
+		"/E/Documents/solar-flare-server/app.js",
+		"/E/Documents/smartbook/index.html",
+		"/E/Documents/mfit-server/app.js",
+		"/E/Documents/mfit-server/package.json",
+		"/E/Documents/marsu-schedule-server/views/index.slim",
+		"/E/Documents/beatext-server/Server/readme.txt",
+		"/E/Documents/beatext-server/Server/package.json",
+		"/C/Users/Anton/Work/photo-stock/public/stylesheets/style.css",
+		"/C/Users/Anton/Work/untitled/app.js",
+		"/C/Users/Anton/Work/passport-local/app.js",
+		"/C/Users/Anton/Work/passport-local/routes.js",
+		"/C/Users/Anton/Work/passport-local/test/test.user.js",
+		"/C/Users/Anton/Work/passport-local/login.png",
+		"/C/Users/Anton/Work/passport-local/routes/index.js",
+		"/C/Users/Anton/Work/jade/public/forms-maket.html",
+		"/E/Documents/basic-login/api/policies/isAuthenticated.js",
+		"/E/Documents/basic-login/api/responses/login.js",
+		"/E/Documents/basic-login/api/models/User.js",
+		"/E/Documents/basic-login/api/controllers/UserController.js",
+		"/E/Documents/basic-login/views/user/signup.ejs",
+		"/E/Documents/basic-login/views/user/login.ejs",
+		"/E/Documents/basic-login/views/homepage.ejs",
+		"/C/Users/Anton/Work/photo-stock/bin/www",
+		"/E/backup/Desktop/Анкетаl.xlsx",
+		"/E/backup/Desktop/index.html",
+		"/E/zona/[Специалист] HTML и CSS. Уровень 1/html/demo/module-10/primer/index.html",
+		"/E/zona/[Специалист] HTML и CSS. Уровень 1/html/demo/module-10/primer/style.css",
+		"/C/Users/Anton/Work/jade/public/position.html",
+		"/E/zona/[Специалист] HTML и CSS. Уровень 1/html/labs/form/form.html",
+		"/E/Documents/omega-site/administrator/components/index.html",
+		"/E/Documents/hair-gallery-app/hair-gallery-app/AppConfig.m",
+		"/E/Documents/hair-gallery-app/web-service/index.php",
+		"/E/Documents/apibase-ios/APIBase.m",
+		"/E/Documents/apibase-ios/JSONHelper.m",
+		"/C/Users/Anton/Work/jade/public/float-2.html",
+		"/C/Users/Anton/Work/jade/public/float.html",
+		"/C/Users/Anton/Work/jade/public/forms.html",
+		"/E/zona/[Специалист] HTML и CSS. Уровень 1/html/demo/module-9/forms.html",
+		"/C/Users/Anton/Work/jade/public/tables.html",
+		"/C/Users/Anton/Work/jade/public/php.html",
+		"/C/Users/Anton/Work/jade/public/les-font.html",
+		"/C/Users/Anton/Work/jade/public/stylesheets/lab-list.css",
+		"/C/Users/Anton/Work/jade/public/stylesheets/lab-font.css",
+		"/C/Users/Anton/Work/jade/public/list-ul.html",
+		"/C/Users/Anton/Work/jade/public/lab-list.html",
+		"/C/Users/Anton/Work/jade/public/list-dl.html",
+		"/C/Users/Anton/Work/jade/public/list-ol.html",
+		"/C/Users/Anton/Work/jade/public/lab-font.html",
+		"/C/Users/Anton/Work/jade/public/content/news.html",
+		"/C/Users/Anton/Work/jade/public/content/test.html",
+		"/C/Users/Anton/Work/jade/public/content/events.html",
+		"/C/Users/Anton/Work/jade/public/content/distance.html",
+		"/C/Users/Anton/Work/jade/public/content/certificat.html",
+		"/C/Users/Anton/Work/jade/app.js",
+		"/C/Users/Anton/Work/jade/public/stylesheets/style.css",
+		"/C/Users/Anton/Work/jade/public/les5.html",
+		"/C/Users/Anton/Work/jade/public/lab4.html",
+		"/C/Users/Anton/Work/jade/public/lab2.html",
+		"/C/Users/Anton/Work/jade/public/les4.html",
+		"/C/Users/Anton/Work/jade/public/module-3/article-1.html",
+		"/C/Users/Anton/Work/jade/public/module-3/links-2.html",
+		"/C/Users/Anton/Work/jade/public/module-3/article-2.html",
+		"/C/Users/Anton/Work/jade/public/links1.html",
+		"/C/Users/Anton/Work/jade/public/les2.html",
+		"/C/Users/Anton/Work/jade/public/lab1.html",
+		"/C/Users/Anton/Work/jade/public/les1.html",
+		"/E/zona/[Специалист] HTML и CSS. Уровень 1/html/labs/index.html",
+		"/C/Users/Anton/Desktop/index.html",
+		"/C/Users/Anton/Work/jade/public/lesson1.html",
+		"/C/Users/Anton/Work/jade/views/lesson1.html",
+		"/C/Users/Anton/Work/jade/views/index1.jade",
+		"/C/Users/Anton/Work/jade/routes/index.js",
+		"/C/Users/Anton/Downloads/jade-tmbundle-master.zip",
+		"/E/zona/[Специалист] HTML и CSS. Уровень 1/html/demo/index.html",
+		"/C/Users/Anton/Work/photo-stock/modes/account.js",
+		"/E/World of Warcraft/Interface/AddOns/FlashTaskBar/libs/DF/split_bar.lua",
+		"/C/Users/Anton/Work/passport-local-master/app.js",
+		"/E/World of Warcraft/Interface/AddOns/FlashTaskBar/libs/DF/addon.lua",
+		"/E/World of Warcraft/Interface/AddOns/FlashTaskBar/FlashTaskBar.lua",
+		"/C/Users/Anton/Work/test/index.js",
+		"/E/World of Warcraft/Interface/AddOns/FlashTaskBar/Changelog-FlashTaskBar-r10.txt"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"active",
+			"        ",
+			"link",
+			"00-00-00-00-00-00",
+			"li",
+			"blockquote"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"00-21-91-F4-49-E8"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "views/layout.jade",
+					"settings":
+					{
+						"buffer_size": 1297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1266,
+								1266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/admin.jade",
+					"settings":
+					{
+						"buffer_size": 822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								794,
+								794
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/index.jade",
+					"settings":
+					{
+						"buffer_size": 320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								317
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
