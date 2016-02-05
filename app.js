@@ -42,6 +42,7 @@ passport.deserializeUser(Account.deserializeUser());
 
 app.use('/', routes);
 app.use('/users', users);
+app.use("/admin", admins);
 
 // mongoose
 mongoose.connect('mongodb://localhost/equilibrium');

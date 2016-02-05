@@ -1,9 +1,16 @@
 doctype html
 html
   head
+
     title= title
+
     //link(rel='stylesheet', href='/stylesheets/style.css')
+
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7', crossorigin='anonymous')
+
+    -var selected = 'home';
+    -var menu = { 'home': '/', 'admin': '/admin' };
+    block link
   body
     
     div(id="nav", class='navbar navbar-inverse navbar-fixed-top')
@@ -14,7 +21,9 @@ html
 
         div(id="navbar", class="collapse navbar-collapse")
           ul(class='nav navbar-nav')
-            li
-              a(href='/') Home
+
+            each val, key in menu
+              li(class=key==selected?"active":undefined)
+                a(href=val, title=key)= key
             
     block content
