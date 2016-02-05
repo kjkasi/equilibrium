@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var passport = require('passport');
+var Account = require('./../models/account');
 
 router.get('/', function(req, res) {
   res.render('admin-login', { user : req.user });
@@ -24,7 +25,34 @@ router.get('/index', function(req, res) {
 
 //need authorization verify
 router.get('/accounts', function(req, res) {
-  res.render('admin-accounts', { user : req.user });
+
+  Account.find({}, function(err, users) {
+    if (err) throw err;
+    //console.log(users);
+    res.render('admin-accounts', { users : users });
+  });
+
+  //res.render('admin-accounts', { accounts : query });
+});
+
+router.post('/accounts', function(req, res) {
+
+  Account.register(new Account({ username : req.body.username }), req.body.password, function(err, account) {
+        if (err) {
+            return res.render("register", {info: "Sorry. That username already exists. Try again."});
+        }
+
+        passport.authenticate('local')(req, res, function () {
+            res.redirect('/admin/accounts');
+        });
+    });
+});
+
+router.delete('/accounts', function(req, res) {
+
+  console.log("DELEtE /admin/accounts");
+
+  res.redirect('/');
 });
 
 module.exports = router;
