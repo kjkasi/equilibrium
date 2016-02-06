@@ -1,12 +1,26 @@
 extends admin
 
+block sidebar
+  
+  ul(class="nav nav-sidebar")
+            li
+              a(href="/admin/index") Overview
+            li(class="active")
+              a(href="/admin/accounts") Accounts
+
 block main
+
   h1(class="page-header") Accounts
+
+  if info 
+    div(class="alert alert-danger", role="alert")
+      p= info
 
   form(class="form-inline",  action="/admin/accounts", method="post")
     div(class="form-group")
       label(for="inputEmail", class="sr-only") Email address
-      input(type="email", id="inputEmail", name="username", class="form-control", placeholder="Email address", required=true)
+      input(type="email", id="inputEmail", name="username", class="form-control", placeholder="Email address", required=true, autocomplete="off")
+    &nbsp
     div(class="form-group")  
       label(for="inputPassword", class="sr-only") Password
       input(type="password", name="password", id="inputPassword", class="form-control", placeholder="Password", required=true)
@@ -28,5 +42,5 @@ block main
             td= user._id
             td= user.username
             td
-              form(action="/admin/accounts", method="delete", if-match="*")
+              form(action="/admin/accounts/#{user._id}/delete", method="post")
                 button(type="submit", class="btn btn-danger btn-xs") delete

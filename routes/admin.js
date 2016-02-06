@@ -35,24 +35,40 @@ router.get('/accounts', function(req, res) {
   //res.render('admin-accounts', { accounts : query });
 });
 
+//need authorization verify
 router.post('/accounts', function(req, res) {
 
   Account.register(new Account({ username : req.body.username }), req.body.password, function(err, account) {
         if (err) {
-            return res.render("register", {info: "Sorry. That username already exists. Try again."});
-        }
 
-        passport.authenticate('local')(req, res, function () {
+          Account.find({}, function(err, users) {
+            if (err) throw err;
+            //console.log(users);
+            res.render('admin-accounts', { users : users, info: "Sorry. That username already exists. Try again." });
+          });
+
+        } else {
+
+          passport.authenticate('local')(req, res, function () {
             res.redirect('/admin/accounts');
-        });
+          });
+        }
     });
 });
 
-router.delete('/accounts', function(req, res) {
+//need authorization verify
+router.post('/accounts/:id/delete', function(req, res) {
 
-  console.log("DELEtE /admin/accounts");
+  Account.findOne({"_id" : req.params.id}, function(err, user) {
+    //if (err) throw err;
+    if (err) {
+      res.sendStatus(404);
+    } else {
+      res.json({user});
+    }
+  });
 
-  res.redirect('/');
+  //res.redirect('/');
 });
 
 module.exports = router;
