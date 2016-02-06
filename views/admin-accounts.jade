@@ -7,6 +7,8 @@ block sidebar
               a(href="/admin/index") Overview
             li(class="active")
               a(href="/admin/accounts") Accounts
+            li
+              a(href="/admin/boards") Boards
 
 block main
 
@@ -24,6 +26,7 @@ block main
     div(class="form-group")  
       label(for="inputPassword", class="sr-only") Password
       input(type="password", name="password", id="inputPassword", class="form-control", placeholder="Password", required=true)
+    &nbsp
     button(class="btn btn-success", type="submit") Create
 
   br
