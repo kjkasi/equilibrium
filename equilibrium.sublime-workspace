@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"function"
+			],
+			[
+				"acc",
+				"accounts"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
 				"ad",
 				"admin"
 			],
@@ -160,19 +176,27 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Anton/Work/equilibrium/routes/admin.js",
+		"/E/zona/MathCad15/crack/mathcad_v15_f000_crk/license.dat",
+		"/E/zona/MathCad15/russian/crack/license.dat",
+		"/C/Users/Anton/Work/equilibrium/views/admin-boards.jade",
+		"/C/Users/Anton/Work/equilibrium/routes/boards.js",
+		"/C/Users/Anton/Downloads/petrachev_a_a_word_2000_shablony_dlya_sozdaniya_dokumentov_p.rar",
 		"/C/Users/Anton/Work/equilibrium/views/admin-accounts.jade",
-		"/C/Users/Anton/Work/equilibrium/views/admin-login.jade",
+		"/C/Users/Anton/Work/equilibrium/models/board.js",
+		"/C/Users/Anton/Work/equilibrium/routes/accounts.js",
 		"/C/Users/Anton/Work/equilibrium/views/admin-index.jade",
-		"/C/Users/Anton/Work/photo-stock/routes/register.js",
+		"/C/Users/Anton/Work/equilibrium/app.js",
+		"/C/Users/Anton/Work/equilibrium/routes/admin.js",
+		"/C/Users/Anton/Work/equilibrium/models/account.js",
 		"/C/Users/Anton/Work/equilibrium/views/admin.jade",
+		"/C/Users/Anton/Work/equilibrium/views/layout.jade",
+		"/C/Users/Anton/Work/equilibrium/views/admin-login.jade",
+		"/C/Users/Anton/Work/photo-stock/routes/register.js",
 		"/C/Users/Anton/Work/passport-local/routes.js",
 		"/C/Users/Anton/Work/passport-local/routes/index.js",
 		"/C/Users/Anton/Work/passport-local/views/register.jade",
 		"/C/Users/Anton/Work/equilibrium/views/admin-error.jade",
-		"/C/Users/Anton/Work/equilibrium/views/layout.jade",
 		"/C/Users/Anton/Work/equilibrium/views/index.jade",
-		"/C/Users/Anton/Work/equilibrium/app.js",
 		"/C/Users/Anton/Work/passport-local/views/login.jade",
 		"/C/Users/Anton/Work/equilibrium/package.json",
 		"/C/Users/Anton/Work/equilibrium/public/stylesheets/style.css",
@@ -199,15 +223,12 @@
 		"/C/Users/Anton/Work/equilibrium/routes/users.js",
 		"/C/Users/Anton/Work/photo-stock/routes/users.js",
 		"/C/Users/Anton/Work/equilibrium/statr.bat",
-		"/C/Users/Anton/Work/equilibrium/models/account.js",
 		"/C/Users/Anton/Work/jade/public/stylesheets/lab-css.css",
 		"/C/Users/Anton/Work/jade/public/lab-css.html",
 		"/C/Users/Anton/Work/jade/views/index.jade",
 		"/C/Users/Anton/Work/jade/views/layout.jade",
 		"/C/Users/Anton/Work/jade/public/form.html",
-		"/E/zona/MathCad15/crack/mathcad_v15_f000_crk/license.dat",
 		"/C/Users/Anton/Downloads/processexplorer.zip",
-		"/E/zona/MathCad15/russian/crack/license.dat",
 		"/E/backup/distr/MathCad15/russian/crack/license.dat",
 		"/C/Users/Anton/Downloads/g2mGUI.hta",
 		"/C/Users/Anton/Downloads/bibliofond_445545.zip",
@@ -282,12 +303,7 @@
 		"/C/Users/Anton/Work/jade/public/lesson1.html",
 		"/C/Users/Anton/Work/jade/views/lesson1.html",
 		"/C/Users/Anton/Work/jade/views/index1.jade",
-		"/C/Users/Anton/Work/jade/routes/index.js",
-		"/C/Users/Anton/Downloads/jade-tmbundle-master.zip",
-		"/E/zona/[Специалист] HTML и CSS. Уровень 1/html/demo/index.html",
-		"/C/Users/Anton/Work/photo-stock/modes/account.js",
-		"/E/World of Warcraft/Interface/AddOns/FlashTaskBar/libs/DF/split_bar.lua",
-		"/C/Users/Anton/Work/passport-local-master/app.js"
+		"/C/Users/Anton/Work/jade/routes/index.js"
 	],
 	"find":
 	{

@@ -28,4 +28,13 @@ router.post('/boards', function(req, res) {
   });
 });
 
+router.post('/boards/:id/delete', function(req, res) {
+
+  Board.find({}, function(err, boards) {
+    if (err) throw err;
+    res.render('admin-boards', { "boards" : boards });
+  });
+});
+
+
 module.exports = router;
